@@ -21,6 +21,9 @@ A private AI assistant for your documents!
 
 ## 🖼️ UI Preview
 
+<img width="1920" height="815" alt="Screenshot 2025-07-21 165510" src="https://github.com/user-attachments/assets/5634e03d-7516-4d83-9ad9-d85180dfe82f" />
+
+
 <img width="1893" height="832" alt="Screenshot 2025-07-21 165536" src="https://github.com/user-attachments/assets/db7d007a-7daf-4373-bba1-89d65aa60faf" />
 
 
