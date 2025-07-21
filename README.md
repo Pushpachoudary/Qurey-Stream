@@ -1,4 +1,4 @@
-# 📚 Qurey-Stream
+# 📚 Query-Stream
 
 
 Upload any text or PDF file and ask questions about it — get accurate, AI-generated answers using Retrieval-Augmented Generation (RAG) with **local models** via Ollama.
@@ -14,13 +14,14 @@ A private AI assistant for your documents!
 - Upload a document (TXT or PDF)
 - App splits and indexes it into a vector store using `ChromaDB`
 - When you ask a question, it retrieves relevant chunks using semantic similarity
-- Passes those chunks as context to a local LLM via Ollama (like `mistral`)
+- Passes those chunks as context to a local LLM via Ollama (like `llama3.2:3b`)
 - You get precise answers from **your own data** — privately and offline!
 
 ---
 
 ## 🖼️ UI Preview
 
+<img width="1893" height="832" alt="Screenshot 2025-07-21 165536" src="https://github.com/user-attachments/assets/db7d007a-7daf-4373-bba1-89d65aa60faf" />
 
 
 ## 🧰 Tech Stack
@@ -54,13 +55,13 @@ A private AI assistant for your documents!
 - Python 3.10+
 - Git
 - Ollama installed → https://ollama.com/download
-- Model pulled locally → `ollama pull mistral`
+- Model pulled locally → `ollama pull llama3.2:3b`
 
 ### 2️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/Pushpachoudary/RAG-model.git
-cd RAG-model
+git clone https://github.com/Pushpachoudary/Query-Stream.git
+cd Query-Stream
 ```
 
 ### 3️⃣ (Optional) Create Virtual Environment
@@ -83,7 +84,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-> Make sure Ollama is running in the background and the model (like `mistral`) is pulled.
+> Make sure Ollama is running in the background and the model (like `llama3.2:3b`) is pulled.
 
 ---
 
@@ -96,7 +97,7 @@ After getting answers, use the **"Export Answer"** button to save the response t
 ## 📁 Folder Structure
 
 ```bash
-RAG-model/
+Query-Stream/
 │
 ├── app.py                # Main Streamlit app
 ├── requirements.txt      # Python dependencies
@@ -108,7 +109,7 @@ RAG-model/
 
 ## 📌 Notes
 
-- You can change the model from Mistral to any Ollama-supported LLM
+- You can change the model from llama3.2:3b to any Ollama-supported LLM
 - Supports only single document at a time (multi-doc feature coming soon)
 - All data and models stay on your device — no uploads or APIs
 
