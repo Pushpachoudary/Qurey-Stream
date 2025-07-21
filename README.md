@@ -1,4 +1,5 @@
-# 📚 RAG-powered Document Q&A
+# 📚 Qurey-Stream
+
 
 Upload any text or PDF file and ask questions about it — get accurate, AI-generated answers using Retrieval-Augmented Generation (RAG) with **local models** via Ollama.
 
